@@ -10,9 +10,9 @@
 
       if( number <= -1 ){
         if ( number == -1 ) {
-          alert("Login is wrong");
+          alert("Логін не правильний");
         }else{
-          alert("Password is wrong");
+          alert("Пароль не правильний");
         }}else{
         setUser(number);
         goToPage("users-page.html");

@@ -142,9 +142,9 @@
 
     createPropertyElement (value1, value2, value3, id) {
       const el = dom.cr('td');
-      el.innerHTML = "<label>Name:</label><br>"+
-        "<label>"+value1+"</label><br><label>Yaer:</label><br>"+
-        "<label>"+value2+"</label><br><label>Author:</label><br>"+
+      el.innerHTML = "<label>Назва:</label><br>"+
+        "<label>"+value1+"</label><br><label>Рік:</label><br>"+
+        "<label>"+value2+"</label><br><label>Автор:</label><br>"+
         "<label>"+value3+"</label><label style='display: none'>"+
         id+"</label>";;
       return el;
@@ -185,7 +185,7 @@
     	usersList.sort(sortUsers);
     	displayUserList();
         var title = dom.el("greating");
-        title.innerHTML = "Welcom "+theUser.firstName;
+        title.innerHTML = "Вітаю "+theUser.firstName;
         displayBooks(theUser);
         
       }

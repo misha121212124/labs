@@ -48,9 +48,9 @@
   $("#list").on("click", "tr", function(e) {
     if ( theUser.libraryBook.indexOf($(e.currentTarget).index()) == -1 ){
       theUser.libraryBook.push($(e.currentTarget).index());
-      alert("This book was added to your list");
+      alert("Книга додана до вашого списку");
     }else{
-      alert("This book is already in your list");
+      alert("Ця книга УЖЕ є у вашому списку");
     }
   });
 
@@ -86,9 +86,9 @@
     };
     createPropertyElement (value1, value2, value3, id) {
       const el = document.createElement('td');
-      el.innerHTML = "<label>Name:</label><br>"+
-        "<label>"+value1+"</label><br><label>Yaer:</label><br>"+
-        "<label>"+value2+"</label><br><label>Author:</label><br>"+
+      el.innerHTML = "<label>Назва:</label><br>"+
+        "<label>"+value1+"</label><br><label>Рік:</label><br>"+
+        "<label>"+value2+"</label><br><label>Автор:</label><br>"+
         "<label>"+value3+"</label><label style='display: none'>"+
         id+"</label>";
       return el;
