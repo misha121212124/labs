@@ -1,0 +1,57 @@
+array=[[
+      "Williams",
+      "Caleb",
+      "17.04.87",
+      "WilCal",
+      "liaeb",
+      ["readling", "sport", "music"],
+      [1,2,3],
+      []
+    ],
+    [
+      "Miller",
+      "Daisy",
+      "08.03.99",
+      "MilDai",
+      "lersy",
+      ["readling", "sport", "music"],
+      [2,4],
+      []
+    ],
+    [
+      "Norris",
+      "Enrico",
+      "14.12.92",
+      "NorEnr",
+      "risico",
+      ["readling", "sport", "music"],
+      [1,5],
+      [[
+    "Под куполом",
+    "",
+    "Стивен Кинг",
+    "images/book1.jpg",
+    "0"
+  ]]
+    ],
+    [
+      "Hardy",
+      "Frieda",
+      "22.09.89",
+      "HarFri",
+      "dyeda",
+      ["readling", "sport", "music"],
+      [1,4],
+      []
+    ],
+    [
+      "Sherman",
+      "Aaron",
+      "30.06.77",
+      "SheAar",
+      "rmaon",
+      ["readling", "sport", "music"],
+      [4],
+      []
+    ]
+  ]

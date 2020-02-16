@@ -1,0 +1,178 @@
+
+/* Styles for main elements */
+main.content {
+    display: flex;
+    padding-top: 120px;
+    min-height: 500px;
+}
+
+main.content > article {
+    display: inline-block;    
+}
+
+main.content > article.content-list {
+    width: 25%;
+    padding: 0 10px;
+    background-color: rgba(122,122,122,0.15);
+}
+
+main.content > article.form{
+    padding-left: 23%;
+    width: 40%;
+    padding-right: 12%;
+    border-right: 1px solid #ECEBBD;
+}
+
+main.content > article.wideform{
+    padding-left: 20%;
+    width: 55%;
+    padding-right: 2%;
+    border-right: 1px solid #ECEBBD;
+}
+
+main.content > article > header > h1 {
+    font-size: 25px;
+    color: #6495ED;
+    text-align: center;
+}
+
+label{
+    color: #3E5F8A;
+    font-size: 1.25em;
+    font-family: Segoe;
+}
+
+article.box{
+    padding-left: 9%;
+    display: none;
+}
+
+article.box > aside > input{
+    max-width: 50%;
+}
+
+/* Styles for table */
+.user-list {
+    width: 100%;
+}
+
+.user-list .tr-left {
+    text-align: left;
+}
+
+.user-list .tr-center {
+    text-align: center;
+}
+
+.user-list thead tr {
+    background-color: rgba(197,227,197,0.15);
+    height: 40px;
+}
+
+.user-list tbody tr {
+    height: 40px;
+}
+
+/* Styles for global elements. Such as button, input, select */
+.btn {
+    cursor: pointer;
+}
+
+.btn.main-btn {
+    width: 200px;
+    height: 30px;
+    background:  #52f552;
+    border: px solid #92f892;
+    border-radius: 20px;
+    color: #018786;
+    font-weight: 700;
+}
+
+.btn.sign-in-btn{
+    width: 200px;
+    height: 30px;
+    background:  #52f552;
+    border: px solid #92f892;
+    border-radius: 20px;
+    color: #018786;
+    font-weight: 700;
+}
+
+.btn.remove-btn {
+    font-weight: 700;
+    border: none;
+    background: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.btn.remove-btn:hover {
+    background-color: #f2f2f2;
+}
+
+.float_r {
+    float: right;
+}
+
+.float_l {
+    float: left;
+}
+
+.padding_right{
+    margin-right: 36%;
+}
+
+.input-field {
+    border: 1px solid #018786;
+    border-radius: 5px;
+    height: 25px;
+    padding: 0 10px;
+}
+
+.input-field.middle-size {
+    
+    width: 100%;
+}
+
+.action-buttons {
+    min-width: 20px;
+}
+.title {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    margin: 0px;
+    padding-left: 13%;
+}
+.blured{
+    -webkit-filter: blur(3px);
+}
+.sign-out{
+    width: 15%;
+    height: auto;
+    padding-left: 90%;
+    padding-top: 1%;
+}
+.limage{
+    width: 13%;
+    height: 100%;
+    position: fixed;
+    margin: 0px;
+}
+.header{
+    padding-left: 13%;
+    padding-top: 50px;
+    margin: 5px;
+    position: fixed;
+    transform: rotate(-11deg);
+    font-family: 'Open Sans', sans-serif;
+    background:linear-gradient(45deg, #EEE8AA 33%, #B8860B 56%, #8B4513);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  color: #EEE8AA;
+  font-size: 2.5em;
+  font-weight: normal;
+  line-height: 1;
+  display: inline-block;
+}

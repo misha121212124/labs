@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link href="main.css" rel="stylesheet">
+	<script src="document.json"></script>
+</head>
+<body style="margin: 0; padding: 0;"background="images/background2.jpg">
+    <header>
+    	<img src="images/title.jpg" class="title blured">
+    	<img src="images/title.jpg" class="title">
+    	<img src="images/img2.jpg" class="limage">
+        <h1 class="header">Library of your favorite books</h1>
+    </header>   
+    <main class="content">
+        <article class="form">
+            <header>
+                <h1>Registration</h1>
+            </header>
+            <article >
+                <form onsubmit="event.preventDefault();">
+                    <aside>
+                        <label for="first_name">First Name:</label>
+                        <input id="first_name" class="input-field middle-size">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="last_name">Last Name:</label>
+                        <input id="last_name" class="input-field middle-size">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="birsday">Birsday:</label>
+                        <input id="birsday" class="input-field middle-size">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="login">Login:</label>
+                        <input id="login" class="input-field middle-size">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="password">Password:</label>
+                        <input id="password" class="input-field middle-size">
+                    </aside>
+                    <br>
+                    <aside>
+                        <label for="interests">List of Interests:</label>
+                        <input id="interests"
+                               placeholder="Type your interests"
+                               class="input-field middle-size">
+                    </aside>
+                    <br>
+                    <button id="sign-in"
+                            class="btn main-btn float_l">Sign in</button>
+                    <button id="create-user"
+                            class="btn main-btn float_r">Create</button>
+                </form>
+            </article>
+        </article>
+        <article class="content-list">
+            <header>
+                <h1>List of Users</h1>
+            </header>
+            <article>
+                <table class="user-list">
+                    <thead>
+                        <tr class="tr-left">
+                            <th>User name</th>
+                            <th>Birsday</th>
+                            <th>Interests</th>
+                            <th>Login</th>
+                            <th class="action-buttons"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-list">
+                    </tbody>
+                </table>
+            </article>
+        </article>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="table.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<script src="library.json"></script>
+</head>
+<body style="margin: 0; padding: 0;"background="images/background2.jpg">
+    <header>
+    	<img src="images/title.jpg" class="title blured">
+    	<img src="images/title.jpg" class="title">
+    	<img src="images/img2.jpg" class="limage">
+        <h1 class="header">Library of your favorite books</h1>
+    </header>   
+    <div style="position: fixed; padding-top: 140px;padding-left: 14%;" id ="go_back">go back</div>
+    <main class="padding">
+    <h1 style="padding-left: 25%;">Library</h1>
+    <button id="add-book-btn" class="btn main-btn float_r padding_right">
+    Add other book</button>
+    <br>
+    <article class="box" id="add-book-form">
+		<aside>
+            <label for="name">Name:</label><br>
+            <input id="name" class="input-field middle-size">
+        </aside>
+        <br>
+        <aside>
+            <label for="year">Year:</label><br>
+            <input id="year" class="input-field middle-size">
+        </aside>
+        <br>
+        <aside>
+            <label for="author">Author:</label><br>
+            <input id="author" class="input-field middle-size">
+        </aside>
+        <br>
+        <aside>
+            <label for="imLink">Link to image(optionaly):</label><br>
+            <input id="imLink" class="input-field middle-size">
+        </aside>
+        <button id="add-btn" class="btn main-btn float_r padding_right">
+        Add this book</button>
+    </article>
+    <br>
+    <table class="list" id ="ttable">
+        <thead>
+            <tr class="tr-left">
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="list"></tbody>
+    </table>
+    </main>
+    <button id="add-book-btn" class="btn main-btn float_r padding_right">
+    Add other book</button>
+    <br>
+    <article class="box" id="add-book-form">
+		<aside>
+            <label for="name">Name:</label><br>
+            <input id="name" class="input-field middle-size">
+        </aside>
+        <br>
+        <aside>
+            <label for="year">Year:</label><br>
+            <input id="year" class="input-field middle-size">
+        </aside>
+        <br>
+        <aside>
+            <label for="author">Author:</label><br>
+            <input id="author" class="input-field middle-size">
+        </aside>
+        <br>
+        <aside>
+            <label for="imLink">Link to image(optionaly):</label><br>
+            <input id="imLink" class="input-field middle-size">
+        </aside>
+    </article>
+    <br>
+    <script src="appl.js"></script>
+</body>
+</html>

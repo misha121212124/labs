@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Library</title>
+    <link href="main.css" rel="stylesheet">
+    <link href="table.css" rel="stylesheet">
+	<script src="document.json"></script>
+    <script src="library.json"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script>
+
+    </script>
+</head>
+<body style="margin: 0; padding: 0;"background="images/background2.jpg">
+    <header>
+        <div id = "prob" style="position: absolute; left: 74.6%; top: 18%;"></div>
+    	<img src="images/title.jpg" class="title blured">
+    	<img src="images/title.jpg" class="title">
+    	<img src="images/img2.jpg" class="limage">     
+
+        <h1 class="header">Library of your favorite books</h1>
+    </header>  
+            <img src="images/sign-out.png" usemap="#workmap" style="float:right;" class="sign-out title">
+            <map name="workmap">
+  <area id = "area" shape="rect" coords="850,22,910,60" href="index.html">
+</map>
+    <main class="content">
+        <article class="wideform">
+            <header>
+                <h1 id = "greating">!!</h1>
+            </header>
+            <table class="list" id = "ttable">
+                <thead>
+                    <tr class="tr-left">
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="list"></tbody>
+            </table>
+            <br>
+            <button id="toLibrary-btn" class="btn main-btn float_r">
+            Library</button><br><br>
+        </article>
+
+        <article class="content-list" >
+            <header>
+                <h1>List of Users</h1>
+            </header>
+            <article>
+                <table class="user-list">
+                    <thead>
+                        <tr class="tr-left">
+                            <th>User name</th>
+                            <th>Birsday</th>
+                            <th>Interests</th>
+                            <th>Login</th>
+                            <th class="action-buttons"></th>
+                        </tr>
+                    </thead>
+                    <tbody id="user-list">
+                    </tbody>
+                </table>
+            </article>
+            <article id="left-side">
+        </article>
+        </article>
+    </main>
+    <script src="app4.js"></script>
+</body>
+</html>
